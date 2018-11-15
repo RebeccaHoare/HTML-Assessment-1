@@ -1,0 +1,116 @@
+<style>
+	body
+		{
+		background-color : #EEE;
+		}
+		
+		/* This element has all the other elements within it
+			the height and width control the space which all 
+			the boxes can fit into. The background has been 
+			created using an image. Overflow hidden means that
+			any overflow is hidden and the rest of the content
+			is made to be invisible*/
+		.Big{
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:2px black solid;
+			height: 420;
+			width: 680px;
+			overflow: hidden;
+		}
+		
+		/* This refers to the box that contains the number 21, 
+		the height and width of the box is defined using calc 
+		which uses a calculation to define the width and height.
+		The position of the box is defined by float which moves
+		the box to the left of the page. The font size of the
+		font within the box is also modified using font-size and 
+		the text is centered in the middle of the box, using text-align.
+		Tye box is given borders, where the thickness of the border, 
+		color and style are declared.*/
+		.container1 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(420px - 2px);
+			width: calc(420px - 2px);
+			float: left;
+			line-height:420px;
+			text-align: center;
+			font-size: 600%;
+		}
+		
+		.container2 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height:  calc(260px - 2px);
+			width:  calc(260px - 2px);
+			overflow: hidden;
+			line-height: 260px;
+			text-align: center;
+			font-size:500%;
+		}
+		
+		.container3 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(60px - 2px);
+			width: calc(60px - 2px);
+			float:left;
+			line-height: 60px;
+			text-align: center;
+			font-size: 200%;
+		}
+		
+		.container4 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(40px - 2px);
+			width: calc(40px - 2px);
+			overflow: hidden;
+			line-height: 40px;
+			text-align: center;
+			font-size: 150%;
+		}
+		
+		.container5 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(20px - 2px);
+			width: calc(20px - 2px);
+			float: left;
+			line-height: 20px;
+			text-align: center;
+			font-size: 120%;
+		}
+		
+		.container6 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(20px - 2px);
+			width: calc(20px - 2px);
+			overflow: hidden;
+			line-height: 20px;
+			text-align: center;
+			font-size: 120%;
+		}
+		.container7 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(100px - 2px);
+			width: calc(100px - 2px);
+			float: left;
+			line-height: 100px;
+			text-align: center;
+			font-size: 300%;
+		}
+		
+		.container8 {
+			background-image:url('https://www.cs.kent.ac.uk/people/staff/dao7/co583/grid.png');
+			border:1px black solid;
+			height: calc(160px - 2px);
+			width: calc(160px - 2px);
+			float: right;
+			line-height: 160px;
+			text-align: center;
+			font-size: 400%;
+		}
+</style>

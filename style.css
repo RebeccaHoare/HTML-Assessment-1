@@ -1,0 +1,119 @@
+<style type="text/css">
+/* This css document is linked to the profile 
+page and the login page, meaning this document
+styles the elements within those pages */
+
+div.container {
+    width: 100%;
+    border: 0.1em solid gray;
+	background-color:#ffe6e6;
+}
+
+/* This section styles the header  which contains the pages heading
+The header is given a border, a background colour and has the text 
+aligned to the center. */
+header{
+	border:0.2em solid black;
+    padding: 1em;
+    color: white;
+    background-color:pink;
+    clear: left;
+    text-align: center;
+}
+
+/* The footer is placed at the bottom of the page
+it is given a black background so that it stands out*/
+footer{
+	padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+/* This is the section of the page that is on the side 
+it is positioned to the left side, using float. The
+border for this area of the page is only defined for 
+right side and it dotted*/
+nav {
+    float: left;
+    max-width: 10em;
+    margin: 0;
+    padding: 1em;
+	background-color:white;
+	border-left: 0.1em dotted #4d0039;
+	height: 33em;
+}
+
+/* Nav ul, is used for the list of information that are 
+placed inside it, ul stands for unordered list*/
+nav ul {
+    padding: 0;
+}
+
+/* Nav ul a, is used for the list of links that are 
+placed inside it, ul stands for unordered list. The
+links within the nav section of the page aren't don't 
+have font that is decorated, meaning it is displayed 
+how its types, i.e. not with any underlines for example*/   
+nav ul a {
+
+    text-decoration: none;
+}
+
+/* This is the styling for the main area of the page,
+which contains the table and image in the profile page 
+and the link in the login page*/
+main {
+	max-width: 100em;
+    margin-left: 10em;
+    border-left: 0.1em dotted #990073;
+	border-right: 0.1em dotted #4d0039;
+    padding: 1em;
+    overflow: auto;
+	background-color: #ffe6e6;
+	height: 35em;
+}
+
+/* h2 is a heading defined in the login page, this centers 
+the text and modifies the font size */
+h2{
+	text-align: center;
+	font-size: 200%;
+}
+
+/* This refers to the text boxes that allow users to enter
+text into, this alters the way the boxes are displayed*/
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.05em solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 80%;
+}
+
+/* This refers to the Link with the id "login", the 
+link is styled so that backgrounf color etc is changed*/
+#Login:link {
+	padding: 1.5% 6%;
+	font-size: 150%;
+	margin: 5px 5px;
+	width: 70%;
+	background-color:  #ffb3d9;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	
+	
+}
+
+/* This alters the color of the link/button made when the
+user hovers over it */
+#Login:hover {
+    background-color: #ffcce6;
+}
+
+</style>
